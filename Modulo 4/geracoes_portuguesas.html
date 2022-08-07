@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+	
+		document.write("<br>");
+	}
+	
+	function mostra(tempo) {
+	
+		document.write(tempo);
+		pulaLinha();
+	}
+
+	var anoAtual = 2022;
+	var anoChegada = 1500;
+	var novaGeracao = 28;
+	var total = ((anoAtual - anoChegada)/novaGeracao);
+	
+	mostra("Desde 1500 até o ano atual, o total de gerações portuguesas que se passaram foram de " + Math.round(total) + " gerações.");
+	
+</script>
